@@ -80,7 +80,7 @@
 					}  
 				},
 				marker:{
-					address: "40 Sibley St, Detroit",
+					address: "Plot 170 paul Ekpo Crescent, Shelter Afrique Estate, Uyo, Akwa Ibom State, Nigeria.",
 					// options: {
 					// 	icon: new google.maps.MarkerImage(
 					// 		"images/map-marker.png",
