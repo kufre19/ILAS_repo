@@ -139,16 +139,16 @@ table { border-collapse: collapse; border-spacing: 0; }
 
 /* Global Styles */
 /* line 5, sass/libs/_global.scss */
-body { font-family: Arial, sans-serif; font-size: 16px; font-weight: 300; line-height: 1.5; color: #888; background-color: #161719; }
+body { font-family: Arial, sans-serif; font-size: 16px; font-weight: 300; line-height: 1.5; color: rgb(0, 0, 0); background-color: #d7e1f3; }
 
 /* line 17, sass/libs/_global.scss */
-h1, h2, h3, h4, h5, h6 { margin-top: 0; color: #FFFFFF; font-family: "Novecento Sans", "Open Sans", sans-serif; font-weight: 600; text-transform: uppercase; }
+h1, h2, h3, h4, h5, h6 { margin-top: 0; color: #000000; font-family: "Novecento Sans", "Open Sans", sans-serif; font-weight: 600; text-transform: uppercase; }
 
 /* line 25, sass/libs/_global.scss */
 a { text-decoration: none; }
 
 /* line 29, sass/libs/_global.scss */
-address { font-style: normal; }
+address { font-style:normal; }
 
 /* line 31, sass/libs/_global.scss */
 p { margin-top: 0; }
@@ -172,7 +172,7 @@ form input[type="submit"]:hover, form input[type="submit"]:active, form input[ty
 /* Reusable Components Style */
 /* button */
 /* line 6, sass/libs/_components.scss */
-.button { display: inline-block; padding: 15px 35px; border: 3px solid white; color: white; text-transform: uppercase; font-size: 12px; font-size: 0.75em; font-family: "Novecento Sans", "Open Sans", sans-serif; -webkit-transition: .3s ease; transition: .3s ease; }
+.button { display: inline-block; padding: 15px 35px; border: 3px solid rgb(0, 0, 0); color: rgb(0, 0, 0); text-transform: uppercase; font-size: 12px; font-size: 0.75em; font-family: "Novecento Sans", "Open Sans", sans-serif; -webkit-transition: .3s ease; transition: .3s ease; }
 /* line 16, sass/libs/_components.scss */
 .button.invert { background-color: white; color: #ac8074; font-weight: 700; }
 /* line 22, sass/libs/_components.scss */
@@ -212,7 +212,7 @@ form input[type="submit"]:hover, form input[type="submit"]:active, form input[ty
 /* line 86, sass/libs/_components.scss */
 .feature header .feature-icon { margin-right: 20px; }
 /* line 88, sass/libs/_components.scss */
-.feature header .feature-title { font-size: 24px; font-size: 1.5em; color: white; margin-bottom: 0; line-height: 1; }
+.feature header .feature-title { font-size: 24px; font-size: 1.5em; color: rgb(0, 0, 0); margin-bottom: 0; line-height: 1; }
 /* line 94, sass/libs/_components.scss */
 .feature header .feature-subtitle { font-size: 12px; font-size: 0.75em; color: #888; text-transform: uppercase; }
 /* line 101, sass/libs/_components.scss */
@@ -366,7 +366,7 @@ form input[type="submit"]:hover, form input[type="submit"]:active, form input[ty
 .map { min-height: 350px; margin-bottom: 30px; }
 
 /* line 414, sass/libs/_components.scss */
-.contact-info strong { color: white; text-transform: uppercase; font-size: 14px; font-size: 0.875em; font-family: "Novecento Sans", "Open Sans", sans-serif; display: block; margin-bottom: 10px; }
+.contact-info strong { color: rgb(0, 0, 0); text-transform: uppercase; font-size: 14px; font-size: 0.875em; font-family: "Novecento Sans", "Open Sans", sans-serif; display: block; margin-bottom: 10px; padding-left: 10px; }
 /* line 423, sass/libs/_components.scss */
 .contact-info .contact a { display: block; color: inherit; }
 /* line 428, sass/libs/_components.scss */
@@ -1098,6 +1098,6 @@ form input[type="submit"]:hover, form input[type="submit"]:active, form input[ty
 .social-links a:hover, .social-links a:focus { color: #c9aca4; }
 
 /* line 98, sass/layout/_footer.scss */
-.copy { font-size: 14px; font-size: 0.875em; color: #494949; }
+.copy { font-size: 14px; font-size: 0.875em; color: #fcfcfc; }
 
 /*# sourceMappingURL=style.css.map */
